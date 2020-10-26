@@ -19,5 +19,6 @@ namespace CasaDoCodigo.Repositories
             this.contexto = contexto;
             dbSet = contexto.Set<T>();
         }
+
     }
 }
